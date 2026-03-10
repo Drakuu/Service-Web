@@ -1,3 +1,5 @@
+"use client";
+
 import { Code2, Paintbrush, Rocket, Smartphone } from "lucide-react";
 
 const services = [
