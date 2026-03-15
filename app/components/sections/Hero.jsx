@@ -15,7 +15,7 @@ export default function Hero() {
           <BackgroundMedia
             variant="image"
             src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1920&q=80"
-            overlayOpacity="bg-background/80"
+            overlayOpacity="bg-background/70"
           />
         </motion.div>
       </div>
@@ -41,7 +41,7 @@ export default function Hero() {
         transition={{ delay: 1.2, duration: 0.7, ease: "easeOut" }}
       >
         <div className="text-xs text-foreground/50 mb-1 font-medium uppercase tracking-wider">Completed</div>
-        <div className="text-2xl font-bold text-primary">50+ Projects</div>
+        <div className="text-2xl font-bold text-primary">30+ Projects</div>
       </motion.div>
 
       <motion.div
@@ -67,7 +67,7 @@ export default function Hero() {
           <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80" alt="Client" className="w-full h-full object-cover" />
         </div>
         <div className="w-8 h-8 rounded-full overflow-hidden border-2 border-primary/40 -ml-4">
-          <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=100&q=80" alt="Client" className="w-full h-full object-cover" />
+          <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=100&q=80" alt="Client" className="w-full h-full object-cover" />
         </div>
         <div className="w-8 h-8 rounded-full overflow-hidden border-2 border-primary/40 -ml-4">
           <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&q=80" alt="Client" className="w-full h-full object-cover" />

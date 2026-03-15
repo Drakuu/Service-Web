@@ -26,7 +26,7 @@ export default function Footer() {
               <img 
                 src="/assets/logo.png" 
                 alt="Vertex System Logo" 
-                className="w-10 h-10 object-contain"
+                className="w-14 h-14 object-contain"
               />
               Vertex System
             </Link>

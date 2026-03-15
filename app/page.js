@@ -1,6 +1,7 @@
 import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
 import Hero from "./components/sections/Hero";
+import TrustBar from "./components/sections/TrustBar";
 import ServicesOverview from "./components/sections/ServicesOverview";
 import FeaturedWork from "./components/sections/FeaturedWork";
 import Testimonials from "./components/sections/Testimonials";
@@ -12,6 +13,7 @@ export default function Home() {
       <Navbar />
       <main className="grow">
         <Hero />
+        <TrustBar />
         <ServicesOverview />
         <FeaturedWork />
         <Testimonials />
