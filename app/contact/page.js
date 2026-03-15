@@ -35,7 +35,7 @@ export default function Contact() {
               <div className="space-y-6 text-lg">
                 <div>
                   <h4 className="font-bold text-foreground/60 text-sm uppercase tracking-wider mb-2">Email Us</h4>
-                  <a href="mailto:hello@luminous.dev" className="hover:text-primary transition-colors">hello@luminous.dev</a>
+                  <a href="mailto:hello@vertexsystem.com" className="hover:text-primary transition-colors">hello@vertexsystem.com</a>
                 </div>
                 <div>
                   <h4 className="font-bold text-foreground/60 text-sm uppercase tracking-wider mb-2">Global Headquarters</h4>

@@ -4,29 +4,34 @@ import { ArrowUpRight } from "lucide-react";
 
 const projects = [
   {
-    title: "E-Commerce Platform",
-    category: "Full-Stack Development",
-    image: "https://images.unsplash.com/photo-1661956602116-aa6865609028?auto=format&fit=crop&w=800&q=80"
-  },
-  {
-    title: "Fintech Dashboard",
-    category: "UI/UX & Data Viz",
+    title: "Next-Gen Enterprise ERP",
+    category: "Business Intelligence",
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80"
   },
   {
-    title: "Healthcare App",
-    category: "Mobile Development",
-    image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=800&q=80"
+    title: "Smart CRM System",
+    category: "Customer Relations",
+    image: "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=800&q=80"
   },
   {
-    title: "AI SaaS Platform",
-    category: "AI Integration",
-    image: "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?auto=format&fit=crop&w=800&q=80"
+    title: "Cloud Calling Center",
+    category: "Telecommunications",
+    image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80"
   },
   {
-    title: "3D Product Configurator",
-    category: "WebGL & Three.js",
-    image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?auto=format&fit=crop&w=800&q=80"
+    title: "Property Finder Hub",
+    category: "Real Estate Tech",
+    image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    title: "Hospital Management",
+    category: "HealthTech Solutions",
+    image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    title: "AI-Powered POS",
+    category: "Retail Intelligence",
+    image: "https://images.unsplash.com/photo-1556742044-3c52d6e88c62?auto=format&fit=crop&w=800&q=80"
   }
 ];
 
@@ -61,11 +66,11 @@ export default function FeaturedWork() {
                 {/* Color overlay on hover */}
                 <div className="absolute inset-0 bg-linear-to-br from-primary/40 to-purple-500/40 mix-blend-overlay opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10" />
                 {/* "View Project" label slides up on hover */}
-                <div className="absolute bottom-0 left-0 right-0 flex items-center justify-center pb-6 opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 z-20">
+                {/* <div className="absolute bottom-0 left-0 right-0 flex items-center justify-center pb-6 opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 z-20">
                   <span className="px-5 py-2 rounded-full bg-white/20 backdrop-blur-md text-white text-sm font-bold border border-white/30">
                     View Project →
                   </span>
-                </div>
+                </div> */}
               </div>
               <div className="flex items-center justify-between">
                 <div>

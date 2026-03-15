@@ -35,10 +35,12 @@ export default function Navbar() {
     >
       <div className="container mx-auto px-6 max-w-7xl flex items-center justify-between">
         <Link href="/" className="text-2xl font-bold font-heading tracking-tight flex items-center gap-2">
-          <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center">
-            <span className="text-white text-sm font-bold">L</span>
-          </div>
-          Luminous
+          <img 
+            src="/assets/logo.png" 
+            alt="Vertex System Logo" 
+            className="w-10 h-10 object-contain"
+          />
+          Vertex System
         </Link>
 
         {/* Desktop Nav */}
