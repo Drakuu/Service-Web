@@ -12,7 +12,7 @@ const outfit = Outfit({
 });
 
 export const metadata = {
-  title: "Premium Tech Agency",
+  title: "Vertex System - High-Growth Technical Solutions",
   description: "We build high-growth technical solutions.",
 };
 

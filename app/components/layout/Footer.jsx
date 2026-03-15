@@ -1,17 +1,34 @@
+"use client";
+
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="bg-background border-t border-foreground/10 pt-24 pb-12">
-      <div className="container mx-auto px-6 max-w-7xl">
+    <footer className="bg-background border-t border-foreground/10 pt-24 pb-12 relative overflow-hidden">
+      {/* Background Watermark */}
+      <div className="absolute bottom-31 left-0 right-0 pointer-events-none select-none overflow-hidden z-0 flex justify-center">
+        <h2 
+          className="text-[11vw] font-black uppercase whitespace-nowrap leading-none tracking-tighter translate-y-1/3"
+          style={{ 
+            WebkitTextStroke: '2px oklch(0.145 0 0 / 0.1)', 
+            color: 'transparent' 
+          }}
+        >
+          Vertex System
+        </h2>
+      </div>
+
+      <div className="container mx-auto px-6 max-w-7xl relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-24">
           <div className="col-span-1 md:col-span-2 lg:col-span-1">
             <Link href="/" className="text-2xl font-bold font-heading tracking-tight flex items-center gap-2 mb-6">
-              <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center">
-                <span className="text-primary-foreground text-sm font-bold">L</span>
-              </div>
-              Luminous
+              <img 
+                src="/assets/logo.png" 
+                alt="Vertex System Logo" 
+                className="w-10 h-10 object-contain"
+              />
+              Vertex System
             </Link>
             <p className="text-foreground/60 text-sm leading-relaxed mb-6">
               We build high-growth technical solutions for visionary brands. Let's create something extraordinary together.
@@ -50,7 +67,7 @@ export default function Footer() {
         </div>
         
         <div className="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-foreground/10 text-sm text-foreground/40">
-          <p>&copy; {new Date().getFullYear()} Luminous Agency. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Vertex System. All rights reserved.</p>
           <div className="flex gap-6 mt-4 md:mt-0">
             <Link href="#" className="hover:text-foreground transition-colors">Privacy Policy</Link>
             <Link href="#" className="hover:text-foreground transition-colors">Terms of Service</Link>
