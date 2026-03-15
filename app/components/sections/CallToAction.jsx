@@ -31,20 +31,15 @@ export default function CallToAction() {
         <p className="text-xl text-foreground/80 mb-10 max-w-2xl mx-auto">
           Let's discuss how we can help your business reach its full technical potential. Our experts are ready for your project.
         </p>
-        <form className="max-w-md mx-auto flex flex-col gap-4">
-          <input 
-            type="email" 
-            placeholder="Enter your email address" 
-            className="w-full px-6 py-4 rounded-xl bg-foreground/5 border border-foreground/10 focus:border-primary outline-none transition-colors text-foreground"
-            required
-          />
-          <button 
-            type="button" 
-            className="w-full px-6 py-4 rounded-xl bg-primary text-primary-foreground font-bold hover:bg-primary/90 transition-all shadow-lg shadow-primary/20 hover:scale-105 active:scale-95"
+        <div className="max-w-md mx-auto">
+          <a 
+            href="https://wa.me/923275058148" 
+            target="_blank"
+            className="inline-block w-full px-6 py-4 rounded-xl bg-primary text-primary-foreground font-bold hover:bg-primary/90 transition-all shadow-lg shadow-primary/20 hover:scale-105 active:scale-95 text-center text-lg"
           >
-            Get in Touch
-          </button>
-        </form>
+            Get in Touch via WhatsApp
+          </a>
+        </div>
       </div>
 
       <style jsx>{`

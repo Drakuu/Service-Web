@@ -51,13 +51,17 @@ export default function Footer() {
               <li><Link href="#" className="text-foreground/60 hover:text-primary transition-colors text-sm">About Us</Link></li>
               <li><Link href="#" className="text-foreground/60 hover:text-primary transition-colors text-sm">Careers</Link></li>
               <li><Link href="#" className="text-foreground/60 hover:text-primary transition-colors text-sm">Case Studies</Link></li>
-              <li><Link href="#" className="text-foreground/60 hover:text-primary transition-colors text-sm">Contact</Link></li>
+              <li><Link href="https://wa.me/923275058148" target="_blank" className="text-foreground/60 hover:text-primary transition-colors text-sm">Contact</Link></li>
             </ul>
           </div>
           
           <div>
             <h4 className="text-sm font-bold text-foreground mb-6 uppercase tracking-wider">Connect</h4>
-            <Link href="#contact" className="group flex items-center gap-2 text-foreground/80 hover:text-primary transition-colors">
+            <Link 
+              href="https://wa.me/923275058148" 
+              target="_blank"
+              className="group flex items-center gap-2 text-foreground/80 hover:text-primary transition-colors"
+            >
               <span className="font-medium text-sm">Book a Call</span>
               <div className="w-8 h-8 rounded-full border border-foreground/20 flex items-center justify-center group-hover:bg-primary group-hover:border-primary transition-all">
                 <ArrowUpRight size={16} />

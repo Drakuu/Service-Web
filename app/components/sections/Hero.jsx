@@ -88,7 +88,11 @@ export default function Hero() {
             Transform your vision into reality with high-performance, beautiful web applications tailored to your business needs.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href="#contact" className="px-8 py-4 rounded-full bg-primary text-primary-foreground font-bold hover:bg-primary/90 transition-all text-lg shadow-lg shadow-primary/20 hover:scale-105 active:scale-95">
+            <a 
+              href="https://wa.me/923275058148" 
+              target="_blank"
+              className="px-8 py-4 rounded-full bg-primary text-primary-foreground font-bold hover:bg-primary/90 transition-all text-lg shadow-lg shadow-primary/20 hover:scale-105 active:scale-95"
+            >
               Start Your Project
             </a>
             <a href="#process" className="px-8 py-4 rounded-full bg-foreground/5 backdrop-blur-md text-foreground font-bold hover:bg-foreground/10 transition-all text-lg border border-foreground/10 hover:scale-105 active:scale-95">

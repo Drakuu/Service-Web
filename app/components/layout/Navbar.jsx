@@ -30,7 +30,7 @@ export default function Navbar() {
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? "py-4 bg-background/80 backdrop-blur-md border-b border-foreground/10" : "py-6 bg-transparent border-b border-transparent"
+        isScrolled ? "py-2 bg-background/80 backdrop-blur-md border-b border-foreground/10" : "py-3 bg-transparent border-b border-transparent"
       }`}
     >
       <div className="container mx-auto px-6 max-w-7xl flex items-center justify-between">
@@ -38,7 +38,7 @@ export default function Navbar() {
           <img 
             src="/assets/logo.png" 
             alt="Vertex System Logo" 
-            className="w-10 h-10 object-contain"
+            className="w-14 h-14 object-contain"
           />
           Vertex System
         </Link>
@@ -55,7 +55,8 @@ export default function Navbar() {
             </Link>
           ))}
           <Link 
-            href="#contact" 
+            href="https://wa.me/923275058148" 
+            target="_blank"
             className="px-6 py-2.5 rounded-full bg-foreground text-background text-sm font-bold hover:bg-foreground/90 transition-colors"
           >
             Book Consultation
@@ -85,7 +86,8 @@ export default function Navbar() {
             </Link>
           ))}
           <Link 
-            href="#contact" 
+            href="https://wa.me/923275058148" 
+            target="_blank"
             className="px-6 py-3 rounded-full bg-foreground text-background text-center font-bold hover:bg-foreground/90 transition-colors"
             onClick={() => setIsMobileMenuOpen(false)}
           >
